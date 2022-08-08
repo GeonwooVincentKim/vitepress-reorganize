@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <template #aside-ads-before>
+        <template #doc-before>
             My Custom Sidebar top content
         </template>
     </Layout>
