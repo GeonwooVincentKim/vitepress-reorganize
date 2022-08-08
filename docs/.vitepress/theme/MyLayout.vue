@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <template #doc-before>
+        <template #aside-outline-before>
             My Custom Sidebar top content
         </template>
     </Layout>
