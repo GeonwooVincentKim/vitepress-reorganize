@@ -23,22 +23,53 @@ export default {
             },
             {text: 'Changelog', link: 'https://github.com/GeonwooVincentKim'}
         ],
-        sidebar: [
-            {
-                text: 'Section Title A',
-                items: [
-                    {text: 'Sidebar Item A', link: '/side-item-a'},
-                    {text: 'Sidebar Item B', link: '/side-item-b'}
-                ]
-            },
-            {
-                text: 'Section Title B',
-                link: '/sec',
-                items: [
-                    {text: 'Sidebar Item C', link: '/side-item-c'},
-                    {text: 'Sidebar Item D', link: '/side-item-d'}
-                ]
-            }
-        ]
+
+        // Single Sidebars
+        // sidebar: [
+        //     {
+        //         text: 'Section Title A',
+        //         items: [
+        //             {text: 'Sidebar Item A', link: '/side-item-a'},
+        //             {text: 'Sidebar Item B', link: '/side-item-b'}
+        //         ]
+        //     },
+        //     {
+        //         text: 'Section Title B',
+        //         link: '/sec',
+        //         items: [
+        //             {text: 'Sidebar Item C', link: '/side-item-c'},
+        //             {text: 'Sidebar Item D', link: '/side-item-d'}
+        //         ]
+        //     },
+        // ],
+
+        // Multiple Sidebars
+        sidebar: {
+            // This Sidebar gets displayed when user is under `guide` directory
+            '/side-guide/': [
+                {
+                    text: 'Guide',
+                    items: [
+                        // This shows `/guide/index.md` page.
+                        {text: 'Index', link: '/side-guide/'}, // /guide/index.md
+                        {text: 'One', link: '/side-guide/one'}, // /guide/one.md
+                        {text: 'Two', link: '/side-guide/two'}, // /guide/two.md
+                    ]
+                }
+            ],
+
+            // This Sidebar gets displayed when user is under `config` directory
+            '/side-config/': [
+                {
+                    text: 'Config',
+                    items: [
+                        // This shows `/config/index.md` page.
+                        {text: 'Config', link: '/side-config/'}, // /config/index.md
+                        {text: 'Three', link: '/side-config/three'}, // /config/three.md
+                        {text: 'Four', link: '/side-config/four'}, // /config/four.md
+                    ]
+                }
+            ]
+        }
     }
 }
