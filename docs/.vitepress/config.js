@@ -46,27 +46,29 @@ export default {
         // Multiple Sidebars
         sidebar: {
             // This Sidebar gets displayed when user is under `guide` directory
-            '/side-guide/': [
+            '/guide/': [
                 {
                     text: 'Guide',
+                    collapsible: true,
                     items: [
                         // This shows `/guide/index.md` page.
-                        {text: 'Index', link: '/side-guide/'}, // /guide/index.md
-                        {text: 'One', link: '/side-guide/one'}, // /guide/one.md
-                        {text: 'Two', link: '/side-guide/two'}, // /guide/two.md
+                        {text: 'Index', link: '/guide/index'}, // /guide/index.md
+                        {text: 'One', link: '/guide/one'}, // /guide/one.md
+                        {text: 'Two', link: '/guide/two'}, // /guide/two.md
                     ]
                 }
             ],
 
             // This Sidebar gets displayed when user is under `config` directory
-            '/side-config/': [
+            '/config/': [
                 {
                     text: 'Config',
+                    collapsible: true,
                     items: [
                         // This shows `/config/index.md` page.
-                        {text: 'Config', link: '/side-config/'}, // /config/index.md
-                        {text: 'Three', link: '/side-config/three'}, // /config/three.md
-                        {text: 'Four', link: '/side-config/four'}, // /config/four.md
+                        {text: 'Config', link: '/config/index'}, // /config/index.md
+                        {text: 'Three', link: '/config/three'}, // /config/three.md
+                        {text: 'Four', link: '/config/four'}, // /config/four.md
                     ]
                 }
             ]
