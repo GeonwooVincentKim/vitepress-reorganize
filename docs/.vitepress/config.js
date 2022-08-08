@@ -22,6 +22,23 @@ export default {
                 ]
             },
             {text: 'Changelog', link: 'https://github.com/GeonwooVincentKim'}
+        ],
+        sidebar: [
+            {
+                text: 'Section Title A',
+                items: [
+                    {text: 'Sidebar Item A', link: '/side-item-a'},
+                    {text: 'Sidebar Item B', link: '/side-item-b'}
+                ]
+            },
+            {
+                text: 'Section Title B',
+                link: '/sec',
+                items: [
+                    {text: 'Sidebar Item C', link: '/side-item-c'},
+                    {text: 'Sidebar Item D', link: '/side-item-d'}
+                ]
+            }
         ]
     }
 }
