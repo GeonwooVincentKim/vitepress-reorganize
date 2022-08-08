@@ -14,6 +14,13 @@ export default {
                 ]
             },
             {text: 'Configs', link: '/configs'},
+            {
+                items: [
+                    {text: 'Section B Item A', link: '/item-a'},
+                    {text: 'Section B Item B', link: '/item-b'},
+                    {text: 'Section B Item C', link: '/item-c'}
+                ]
+            },
             {text: 'Changelog', link: 'https://github.com/GeonwooVincentKim'}
         ]
     }
