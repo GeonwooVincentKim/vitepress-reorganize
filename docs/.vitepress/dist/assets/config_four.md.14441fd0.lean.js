@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.7c2ef20e.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"config/four.md"}'),o={name:"config/four.md"};function a(c,n,s,f,i,p){return r(),t("div")}var m=e(o,[["render",a]]);export{d as __pageData,m as default};
