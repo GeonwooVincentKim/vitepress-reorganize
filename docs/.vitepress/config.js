@@ -4,7 +4,7 @@ export default {
     themeConfig: {
         // siteTile: "GeonwooKim's VitePress Project"
         nav: [
-            {text: 'Guide', link: '/guide'},
+            {text: 'Guide', link: '/guide', activeMatch: '/config/'},
             {
                 text: 'Dropdown Menu',
                 items: [
