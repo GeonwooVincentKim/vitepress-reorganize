@@ -4,7 +4,7 @@ export default {
     themeConfig: {
         // siteTile: "GeonwooKim's VitePress Project"
         nav: [
-            {text: 'Guide', link: '/guide', activeMatch: '/config/'},
+            {text: 'Guide', link: '/guide', activeMatch: '/guide/'},
             {
                 text: 'Dropdown Menu',
                 items: [
@@ -13,7 +13,7 @@ export default {
                     {text: 'Item C', link: '/item-3'}
                 ]
             },
-            {text: 'Configs', link: '/configs'},
+            {text: 'Configs', link: '/configs', activeMatch: '/configs/'},
             {
                 items: [
                     {text: 'Section B Item A', link: '/item-a'},
@@ -50,6 +50,7 @@ export default {
                 {
                     text: 'Guide',
                     collapsible: true,
+                    collapsed: true,
                     items: [
                         // This shows `/guide/index.md` page.
                         {text: 'Index', link: '/guide/index'}, // /guide/index.md
@@ -64,6 +65,7 @@ export default {
                 {
                     text: 'Config',
                     collapsible: true,
+                    collapsed: true,
                     items: [
                         // This shows `/config/index.md` page.
                         {text: 'Config', link: '/config/index'}, // /config/index.md
