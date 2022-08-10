@@ -9,7 +9,7 @@ export default {
     ...DefaultTheme,
 
     // root component to wrap each page
-    Layout: MyLayout,
+    Layout: Layout,
     // Theme,
 
     // this is a Vue 3 functional component

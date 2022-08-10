@@ -1,35 +1,50 @@
-<template>
-    <h1>Custom Layout!</h1>
+<template #aside-outline-before>
+    <!-- <h1>Custom Layout!</h1> -->
 
+    <Layout>
+        <!-- <Content /> -->
+        <header>
+            <h1>Get the </h1>
+        </header>
+        <nav>
+            
+        </nav>
+        <footer>
+
+        </footer>       
+    </Layout>
     <!-- This is where markdown content will be rendered -->
-    <Content />
 </template>
-<script>
-export default {
-    data () {
-        return {
+<script setup>
+import DefaultTheme from 'vitepress/theme'
 
-        }
-    },
+const { Layout } = DefaultTheme
 
-    components: {
+// export default {
+//     data () {
+//         return {
+            
+//         }
+//     },
 
-    },
+//     components: {
 
-    computed: {
+//     },
 
-    },
+//     computed: {
 
-    // asyncComputed: {
+//     },
 
-    // },
+//     // asyncComputed: {
 
-    watch: {
+//     // },
 
-    },
+//     watch: {
 
-    methods: {
+//     },
 
-    }
-}
+//     methods: {
+
+//     }
+// }
 </script>
