@@ -45,6 +45,29 @@ export default {
 
         // Multiple Sidebars
         sidebar: {
+            '/': [
+                {
+                    items: [
+                        {
+                            items: [
+                                // This shows `/guide/index.md` page.
+                                {text: 'Index', link: '/guide/index'}, // /guide/index.md
+                                {text: 'One', link: '/guide/one'}, // /guide/one.md
+                                {text: 'Two', link: '/guide/two'}, // /guide/two.md
+                            ]
+                        },
+                        {
+                            items: [
+                                // This shows `/config/index.md` page.
+                                {text: 'Config', link: '/config/index'}, // /config/index.md
+                                {text: 'Three', link: '/config/three'}, // /config/three.md
+                                {text: 'Four', link: '/config/four'}, // /config/four.md
+                            ]
+                        }
+                    ]
+                }
+            ],
+
             // This Sidebar gets displayed when user is under `guide` directory
             '/guide/': [
                 {
