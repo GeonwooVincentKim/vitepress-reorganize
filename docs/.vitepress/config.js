@@ -1,3 +1,5 @@
+const testSidebar= [{ text: 'Guide', link: '/guide/index'}]
+
 export default {
 	title: "GeonwooKim's VitePress Project",
 	description: 'Learn Vitepress again',
@@ -91,6 +93,8 @@ export default {
             //         // ]
             //     }
             // ],
+            
+
             // This Sidebar gets displayed when user is under `guide` directory
             '/guide/': [
                 {

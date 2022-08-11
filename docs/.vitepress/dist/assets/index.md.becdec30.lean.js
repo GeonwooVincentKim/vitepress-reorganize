@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as t,d as a}from"./app.fd611e1c.js";const m=JSON.parse('{"title":"Welcome to my HomePage","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),i={name:"index.md"},n=a("",12),r=[n];function d(c,p,h,s,f,l){return t(),o("div",null,r)}var g=e(i,[["render",d]]);export{m as __pageData,g as default};
