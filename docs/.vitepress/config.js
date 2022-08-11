@@ -48,55 +48,78 @@ export default {
             '/': [
                 {
                     items: [
+                        // {text: 'Guide', link: '/guide/'},
+                        // {text: 'Config', link: '/config/'}
                         {
+                            text: 'Guide',
+                            collapsible: true,
+                            collapsed: false,
                             items: [
                                 // This shows `/guide/index.md` page.
                                 {text: 'Index', link: '/guide/index'}, // /guide/index.md
                                 {text: 'One', link: '/guide/one'}, // /guide/one.md
                                 {text: 'Two', link: '/guide/two'}, // /guide/two.md
                             ]
-                        },
-                        {
-                            items: [
-                                // This shows `/config/index.md` page.
-                                {text: 'Config', link: '/config/index'}, // /config/index.md
-                                {text: 'Three', link: '/config/three'}, // /config/three.md
-                                {text: 'Four', link: '/config/four'}, // /config/four.md
-                            ]
                         }
                     ]
-                }
-            ],
+                    // '/guide/': [
+                    //     {
+                    //         text: 'Guide',
+                    //         collapsible: true,
+                    //         collapsed: true,
+                    //         items: [
+                    //             // This shows `/guide/index.md` page.
+                    //             {text: 'Index', link: '/guide/index'}, // /guide/index.md
+                    //             {text: 'One', link: '/guide/one'}, // /guide/one.md
+                    //             {text: 'Two', link: '/guide/two'}, // /guide/two.md
+                    //         ]
+                    //     }
+                    // ],
 
-            // This Sidebar gets displayed when user is under `guide` directory
-            '/guide/': [
-                {
-                    text: 'Guide',
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        // This shows `/guide/index.md` page.
-                        {text: 'Index', link: '/guide/index'}, // /guide/index.md
-                        {text: 'One', link: '/guide/one'}, // /guide/one.md
-                        {text: 'Two', link: '/guide/two'}, // /guide/two.md
-                    ]
+                    // '/config/': [
+                    //     {
+                    //         text: 'Config',
+                    //         collapsible: true,
+                    //         collapsed: true,
+                    //         items: [
+                    //             // This shows `/config/index.md` page.
+                    //             {text: 'Config', link: '/config/index'}, // /config/index.md
+                    //             {text: 'Three', link: '/config/three'}, // /config/three.md
+                    //             {text: 'Four', link: '/config/four'}, // /config/four.md
+                    //         ]
+                    //     }
+                    // ]
                 }
             ],
+            // This Sidebar gets displayed when user is under `guide` directory
+            // '/guide/': [
+            //     {
+            //         text: 'Guide',
+            //         collapsible: true,
+            //         collapsed: true,
+            //         items: [
+            //             // This shows `/guide/index.md` page.
+            //             {text: 'Index', link: '/guide/index'}, // /guide/index.md
+            //             {text: 'One', link: '/guide/one'}, // /guide/one.md
+            //             {text: 'Two', link: '/guide/two'}, // /guide/two.md
+            //         ]
+            //     }
+            // ],
 
             // This Sidebar gets displayed when user is under `config` directory
-            '/config/': [
-                {
-                    text: 'Config',
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        // This shows `/config/index.md` page.
-                        {text: 'Config', link: '/config/index'}, // /config/index.md
-                        {text: 'Three', link: '/config/three'}, // /config/three.md
-                        {text: 'Four', link: '/config/four'}, // /config/four.md
-                    ]
-                }
-            ]
+            // '/config/': [
+            //     {
+            //         text: 'Config',
+            //         collapsible: true,
+            //         collapsed: true,
+            //         items: [
+            //             // This shows `/config/index.md` page.
+            //             {text: 'Config', link: '/config/index'}, // /config/index.md
+            //             {text: 'Three', link: '/config/three'}, // /config/three.md
+            //             {text: 'Four', link: '/config/four'}, // /config/four.md
+            //         ]
+            //     }
+            // ]
         }
     }
 }
