@@ -44,82 +44,127 @@ export default {
         // ],
 
         // Multiple Sidebars
-        sidebar: {
-            '/': [
-                {
-                    items: [
-                        // {text: 'Guide', link: '/guide/'},
-                        // {text: 'Config', link: '/config/'}
-                        {
-                            text: 'Guide',
-                            collapsible: true,
-                            collapsed: false,
-                            items: [
-                                // This shows `/guide/index.md` page.
-                                {text: 'Index', link: '/guide/index'}, // /guide/index.md
-                                {text: 'One', link: '/guide/one'}, // /guide/one.md
-                                {text: 'Two', link: '/guide/two'}, // /guide/two.md
-                            ]
-                        }
-                    ]
-                    // '/guide/': [
-                    //     {
-                    //         text: 'Guide',
-                    //         collapsible: true,
-                    //         collapsed: true,
-                    //         items: [
-                    //             // This shows `/guide/index.md` page.
-                    //             {text: 'Index', link: '/guide/index'}, // /guide/index.md
-                    //             {text: 'One', link: '/guide/one'}, // /guide/one.md
-                    //             {text: 'Two', link: '/guide/two'}, // /guide/two.md
-                    //         ]
-                    //     }
-                    // ],
+        // sidebar: {
+        //     // '/': [
+        //     //     {
+        //     //         items: [
+        //     //             // {text: 'Guide', link: '/guide/'},
+        //     //             // {text: 'Config', link: '/config/'}
+        //     //             {
+        //     //                 text: 'Guide',
+        //     //                 collapsible: true,
+        //     //                 collapsed: false,
+        //     //                 items: [
+        //     //                     // This shows `/guide/index.md` page.
+        //     //                     {text: 'Index', link: '/guide/index'}, // /guide/index.md
+        //     //                     {text: 'One', link: '/guide/one'}, // /guide/one.md
+        //     //                     {text: 'Two', link: '/guide/two'}, // /guide/two.md
+        //     //                 ]
+        //     //             }
+        //     //         ]
+        //     //         // '/guide/': [
+        //     //         //     {
+        //     //         //         text: 'Guide',
+        //     //         //         collapsible: true,
+        //     //         //         collapsed: true,
+        //     //         //         items: [
+        //     //         //             // This shows `/guide/index.md` page.
+        //     //         //             {text: 'Index', link: '/guide/index'}, // /guide/index.md
+        //     //         //             {text: 'One', link: '/guide/one'}, // /guide/one.md
+        //     //         //             {text: 'Two', link: '/guide/two'}, // /guide/two.md
+        //     //         //         ]
+        //     //         //     }
+        //     //         // ],
 
-                    // '/config/': [
-                    //     {
-                    //         text: 'Config',
-                    //         collapsible: true,
-                    //         collapsed: true,
-                    //         items: [
-                    //             // This shows `/config/index.md` page.
-                    //             {text: 'Config', link: '/config/index'}, // /config/index.md
-                    //             {text: 'Three', link: '/config/three'}, // /config/three.md
-                    //             {text: 'Four', link: '/config/four'}, // /config/four.md
-                    //         ]
-                    //     }
-                    // ]
-                }
-            ],
-            // This Sidebar gets displayed when user is under `guide` directory
-            // '/guide/': [
-            //     {
-            //         text: 'Guide',
-            //         collapsible: true,
-            //         collapsed: true,
-            //         items: [
-            //             // This shows `/guide/index.md` page.
-            //             {text: 'Index', link: '/guide/index'}, // /guide/index.md
-            //             {text: 'One', link: '/guide/one'}, // /guide/one.md
-            //             {text: 'Two', link: '/guide/two'}, // /guide/two.md
-            //         ]
-            //     }
-            // ],
+        //     //         // '/config/': [
+        //     //         //     {
+        //     //         //         text: 'Config',
+        //     //         //         collapsible: true,
+        //     //         //         collapsed: true,
+        //     //         //         items: [
+        //     //         //             // This shows `/config/index.md` page.
+        //     //         //             {text: 'Config', link: '/config/index'}, // /config/index.md
+        //     //         //             {text: 'Three', link: '/config/three'}, // /config/three.md
+        //     //         //             {text: 'Four', link: '/config/four'}, // /config/four.md
+        //     //         //         ]
+        //     //         //     }
+        //     //         // ]
+        //     //     }
+        //     // ],
+        //     // This Sidebar gets displayed when user is under `guide` directory
+        //     '/guide/': [
+        //         {
+        //             text: 'Guide',
+        //             collapsible: true,
+        //             collapsed: true,
+        //             items: [
+        //                 // This shows `/guide/index.md` page.
+        //                 {text: 'Index', link: '/guide/index'}, // /guide/index.md
+        //                 {text: 'One', link: '/guide/one'}, // /guide/one.md
+        //                 {text: 'Two', link: '/guide/two'}, // /guide/two.md
+        //             ]
+        //         }
+        //     ],
 
-            // This Sidebar gets displayed when user is under `config` directory
-            // '/config/': [
-            //     {
-            //         text: 'Config',
-            //         collapsible: true,
-            //         collapsed: true,
-            //         items: [
-            //             // This shows `/config/index.md` page.
-            //             {text: 'Config', link: '/config/index'}, // /config/index.md
-            //             {text: 'Three', link: '/config/three'}, // /config/three.md
-            //             {text: 'Four', link: '/config/four'}, // /config/four.md
-            //         ]
-            //     }
-            // ]
-        }
+        //     // This Sidebar gets displayed when user is under `config` directory
+        //     '/config/': [
+        //         {
+        //             text: 'Config',
+        //             collapsible: true,
+        //             collapsed: true,
+        //             items: [
+        //                 // This shows `/config/index.md` page.
+        //                 {text: 'Config', link: '/config/index'}, // /config/index.md
+        //                 {text: 'Three', link: '/config/three'}, // /config/three.md
+        //                 {text: 'Four', link: '/config/four'}, // /config/four.md
+        //             ]
+        //         }
+        //     ]
+        // }
+
+        sidebar: [
+            // "/",
+            // {
+            //     title: 'Index',
+                
+            // }
+            {
+                title: "level1",
+                collapsible:true,
+                collapsed:false,
+                items:[
+                   {
+                      title: "level1-1",
+                      collapsible: true,
+                      collapsed: false,
+                      items: [
+                         {
+                            title:"level1-1-1 ",
+                            link:"/01.1"
+                         },
+                         {
+                            title:"level1-1-2 ",
+                            link:"/01.2"
+                         }
+                      ]
+                   },
+                   {
+                      title:"level1-2",
+                      collapsible:true,
+                      collapsed:false,
+                      items:[
+                         {
+                            title:"level1-2-1 ",
+                            link:"/02.1"
+                         },
+                         {
+                            title:"level1-2-2 ",
+                            link:"/02.2"
+                         }
+                      ]
+                   }
+                ]
+             }
+        ]
     }
 }
