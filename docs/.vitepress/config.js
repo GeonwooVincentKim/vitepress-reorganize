@@ -150,51 +150,6 @@ export default {
             //     }
             // ]
         }
-
-        // sidebar: [
-        //     // "/",
-        //     // {
-        //     //     title: 'Index',
-                
-        //     // }
-        //     {
-        //         title: "level1",
-        //         collapsible:true,
-        //         collapsed:false,
-        //         items:[
-        //            {
-        //               title: "level1-1",
-        //               collapsible: true,
-        //               collapsed: false,
-        //               items: [
-        //                  {
-        //                     title:"level1-1-1 ",
-        //                     link:"/01.1"
-        //                  },
-        //                  {
-        //                     title:"level1-1-2 ",
-        //                     link:"/01.2"
-        //                  }
-        //               ]
-        //            },
-        //            {
-        //               title:"level1-2",
-        //               collapsible:true,
-        //               collapsed:false,
-        //               items:[
-        //                  {
-        //                     title:"level1-2-1 ",
-        //                     link:"/02.1"
-        //                  },
-        //                  {
-        //                     title:"level1-2-2 ",
-        //                     link:"/02.2"
-        //                  }
-        //               ]
-        //            }
-        //         ]
-        //      }
-        // ]
     },
 
     editLink: {
